@@ -1,0 +1,9 @@
+name: hoardspawner
+version: '1.0'
+main: smaamc.hoardspawner.Hoardspawner
+api-version: '1.20'
+commands:
+  hoard:
+    description: Main command for the HoardSpawner plugin.
+    usage: /hoard <start|stop|reload>
+    permission: smaamc.hoard.admin

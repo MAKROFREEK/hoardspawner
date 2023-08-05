@@ -1,0 +1,25 @@
+global_spawn_time: 5 #time in seconds
+min_distance: 10  #minimum distance mobs will spawn
+max_distance: 20  #max distance mobs will spawn
+mob_spawn_limit: 30 # mobs will never exceed this limit
+min_mobs_spawn: 20 #amount of mobs that will spawn
+world:
+  mobs:
+    - CREEPER
+  drops:
+      - IRON_INGOT:1:1:5
+      - IRON_CHESTPLATE:1:5:5
+world_nether:
+  mobs:
+    - PIGLIN
+  drops:
+      - GOLDEN_APPLE:1:5:5
+      - GOLDEN_INGOT:1:5:5
+      - GOLDEN_CHESTPLATE:1:5:5
+world_the_end: # per world loot & mob configuration
+  mobs:
+    - ENDERMAN
+  drops:
+      - DIAMOND:5:5:5
+      - DIAMOND_CHESTPLATE:5:5:5
+# you may define your own worlds
